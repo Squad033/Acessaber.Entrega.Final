@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>ACESSABER</title>
+     <link rel="stylesheet" th:href="@{/css/style.css}">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary container">
+        <div class="container">
+          <a class="navbar-brand" href="/">Acessaber</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"  href="/">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/participar">Participar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/sobre" aria-current="page">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contatos">Contato</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Procure aqui.." aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <hr>
+
+    <main class="container">
+        <div class="sobre container">
+            <div class="row align-items-center ">
+              <h1 class="mt-5 text-center" id="sobre"> Sobre<span> Nós</span></h1>
+  
+              <div class="col-8 mx-auto ">
+                <img src="img/Happy student-rafiki.svg" alt="">
+              </div>
+  
+              <div class=" container col-12 col-lg-8 text-center mt-5">
+                <h2 class="mb-5">
+                  Quem somos
+                </h2>
+                <p class="col-12 m-auto" >Sabemos que uma das maiores dificuldades do estudante hoje é pagar ou 
+                  financiar um estudo de qualidade. Outra é o pagamento do transporte de ida e 
+                  vinda até o local. Esses dois fatores causam uma grande taxa de evasão no 
+                  ensino superior, e pessoas que poderiam se tornar excelentes profissionais 
+                  acabam desistindo dos estudos. Pensando nisso criamos a Acessaber.
+                  <br>
+                  <br>
+                  Somos uma empresa inovadora. Temos a proposta de conceder empréstimos de equipamentos e 
+                  passagens à todos os estudantes de ensino superior. Para isso contamos com 
+                  uma gama de empresas parceiras que investem em nosso projeto. E assim, 
+                  conseguimos incentivar e ajudar os estudantes a prosseguirem com os estudos, 
+                  para que finalizem a graduação, se tornem profissionais de sucesso e façam a 
+                  diferença no mercado de trabalho.
+                </p>
+                <h2 class="mt-5 mb-5">
+                    Ensinar é tocar <br> vidas para sempre
+                </h2>
+                <img class="col-12 m-auto " src="img/estudantes.jpg" alt="">
+              </div>
+              
+            </div>
+        </div>
+
+    </main>
+
+  
+
+    <section>
+      <div class="container">
+        <div class="row justify-content-between">
+
+          <div class="icons container col-lg-4 ">
+                <div class="valores justify-content-center align-items-center">
+                  <img src="img/icons/alvo.png" alt="" class="valoresImg p-3">
+                  <div class="m-5">
+                    <h2 class="gradient">Missão</h2>
+                    <p>Ajudar os estudantes a terem acesso aos estudos de forma continua, 
+                      diminuindo a taxa de evasão.
+                    </p>
+                  </div>
+                </div>
+          </div>
+
+          <div class="icons container col-lg-4">
+            <div class="valores justify-content-center align-items-center">
+              <img src="img/icons/visao-compartilhada.png" alt="" class="valoresImg p-3">
+              <div class="m-5">
+                <h2 class="gradient">Visão</h2>
+                <p>Incentivar cada vez mais as pessoas a buscarem capacitação 
+                  profissional.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="icons container col-lg-4">
+            <div class="valores justify-content-center align-items-center">
+              <img src="img/icons/valores.png" alt="" class="valoresImg p-3">
+              <div class="m-5">
+                <h2 class="gradient">Valores</h2>
+                <p>Inovação, Respeito às diferenças, Honestidade, Integridade, 
+                  Comprometimento.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>  
+    </section>
+
+    <hr>
+
+    <footer class="text-center">
+      <p>Acessaber | Todos os direitos reservados</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
